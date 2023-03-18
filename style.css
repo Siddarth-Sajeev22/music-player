@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'DagsenBlack';
+    src: url(./fonts/Dagsen_Black.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'DagsenBlack';
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    background-color: black;
+    list-style-type: none;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    padding: 0 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.logo img{
+    width: 70px;
+    margin: 0 10px 0 -20px;
+}
