@@ -15,14 +15,26 @@
                 <li><a href="about.html">About</a></li>
         </ul>
     </nav>
+    <h1 id="initialheading">Song list</h1>
     <div class="container">
-        <h1>Song list</h1>
         <div class="songlist"></div>
-        <div class="songbanner"></div>
+            
+            <div class="songItem">
+                <img src="./images/cover1.jpg" alt="1">
+                <span>Nuvole Bianche</span>
+                <span class="songListPlay"><span>05:34</span><i class="fa-solid fa-play fa-lg"></i></span>
+            </div>
+
     </div>
     <div class="bottom">
         <input type="range" name="range" id="myprogressbar" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward fa-lg"></i>
+            <i class="fa-solid fa-play fa-lg"></i>
+            <i class="fa-solid fa-forward fa-lg"></i>
+        </div>
     </div>
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/98fcc0b23d.js" crossorigin="anonymous"></script>
 </body>
 </html>

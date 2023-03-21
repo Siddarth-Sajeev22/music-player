@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
 @font-face {
     font-family: 'DagsenBlack';
     src: url(./fonts/Dagsen_Black.otf);
@@ -7,6 +10,10 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to left,#FF8489,#D5ADC8);
 }
 
 nav{
@@ -42,18 +49,59 @@ nav ul li{
     margin: 0 10px 0 -20px;
 }
 
+#initialheading{
+    font-family: DagsenBlack;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 .container{
-    min-height: 80vh;
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: DagsenBlack;
+    display: flex;
+    margin: 30px auto;
+    width : 70%;
+    padding : 30px;
+    background-image: url(./augustin-cart-gif-lofi-final.gif);
 }
+
+.songlist{
+
+}
+
+.songItem{
+    font-family: 'Abhaya Libre', serif;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
 .bottom{
     background-color: black;
+    color: white;
     height: 100px;
     position: sticky;
     bottom:0;   
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top : 14px;
+}
+
+.icons i{
+    cursor: pointer;
 }
 
 #myprogressbar{
