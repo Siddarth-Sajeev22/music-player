@@ -1,110 +1,134 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 
 @font-face {
-    font-family: 'DagsenBlack';
-    src: url(./fonts/Dagsen_Black.otf);
+  font-family: "DagsenBlack";
+  src: url(./fonts/Dagsen_Black.otf);
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: linear-gradient(to left,#FF8489,#D5ADC8);
+body {
+  background-image: linear-gradient(to left, #ff8489, #d5adc8);
 }
 
-nav{
-    font-family: 'DagsenBlack';
-    color: white;
+nav {
+  font-family: "DagsenBlack";
+  color: white;
 }
 
-nav ul{
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    background-color: black;
-    list-style-type: none;
-    
-
+nav ul {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  background-color: black;
+  list-style-type: none;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
-nav ul li{
-    padding: 0 15px;
+nav ul li {
+  padding: 0 15px;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
-.logo img{
-    width: 70px;
-    margin: 0 10px 0 -20px;
-}
-
-#initialheading{
-    font-family: DagsenBlack;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+.logo img {
+  width: 70px;
+  margin: 0 10px 0 -20px;
 }
 
-.container{
-    min-height: 62vh;
-    background-color: black;
-    color: white;
-    font-family: DagsenBlack;
-    display: flex;
-    margin: 30px auto;
-    width : 70%;
-    padding : 30px;
-    background-image: url(./augustin-cart-gif-lofi-final.gif);
+#initialheading {
+  font-family: DagsenBlack;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-.songlist{
-
+.container {
+  min-height: 50vh;
+  background-color: black;
+  color: white;
+  font-family: DagsenBlack;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  width: 70%;
+  padding: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./augustin-cart-gif-lofi-final.gif);
 }
 
-.songItem{
-    font-family: 'Abhaya Libre', serif;
-    display: flex;
-    justify-content: space-around;
-    width: 50vw;
-    height: 30px;
-    background-color: white;
-    color: black;
+.songlist {
 }
 
-.bottom{
-    background-color: black;
-    color: white;
-    height: 100px;
-    position: sticky;
-    bottom:0;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
+.songItem {
+  font-family: "Abhaya Libre", serif;
+  display: flex;
+  font-size: large;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  color: white;
+  margin: 20px 0;
 }
 
-.icons{
-    margin-top : 14px;
+.songItem img {
+  height: 70px;
+  margin-left: -60px;
+  border-radius: 10px;
 }
 
-.icons i{
-    cursor: pointer;
+.timestamp {
+  padding: 0 23px;
 }
 
-#myprogressbar{
-    width: 800px;
+.timestamp i {
+  padding: 0 23px;
+  cursor: pointer;
+}
+.bottom {
+  background-color: black;
+  color: white;
+  height: 100px;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.songinfo {
+  position: absolute;
+  left:0;
+}
+
+.songinfo img{
+  width: 100px;
+  margin-left: 10vw;
+  opacity: 0;
+  transition: opacity 10s ease-in;
+  
+}
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myprogressbar {
+  width: 800px;
+}
