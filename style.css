@@ -114,11 +114,14 @@ nav ul li {
   left:0;
 }
 
+.songinfo span{
+  position: relative;
+  bottom : 10px;
+}
+
 .songinfo img{
   width: 100px;
-  margin-left: 10vw;
-  opacity: 0;
-  transition: opacity 10s ease-in;
+  margin-left: 5vw;
   
 }
 .icons {
@@ -131,4 +134,5 @@ nav ul li {
 
 #myprogressbar {
   width: 800px;
+  cursor: pointer;
 }
