@@ -119,11 +119,13 @@ nav ul li {
   bottom : 10px;
 }
 
+
 .songinfo img{
   width: 100px;
   margin-left: 5vw;
   
 }
+
 .icons {
   margin-top: 14px;
 }
@@ -132,7 +134,13 @@ nav ul li {
   cursor: pointer;
 }
 
-#myprogressbar {
+#myProgressBar {
   width: 800px;
   cursor: pointer;
+}
+
+
+#gif {
+  opacity: 0;
+  transition : opacity 2s ease-in;
 }
