@@ -68,8 +68,6 @@ nav ul li {
     url(./augustin-cart-gif-lofi-final.gif);
 }
 
-.songlist {
-}
 
 .songItem {
   font-family: "Abhaya Libre", serif;
@@ -81,11 +79,11 @@ nav ul li {
   height: 50px;
   color: white;
   margin: 20px 0;
+  
 }
 
 .songItem img {
   height: 70px;
-  margin-left: -60px;
   border-radius: 10px;
 }
 
@@ -143,4 +141,8 @@ nav ul li {
 #gif {
   opacity: 0;
   transition : opacity 2s ease-in;
+}
+
+#songPlayingName{
+  opacity:0;
 }
